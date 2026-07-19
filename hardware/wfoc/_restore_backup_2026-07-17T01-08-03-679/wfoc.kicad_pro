@@ -150,7 +150,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -691,7 +691,7 @@
         "uuid": "6325499e-85bc-45e5-a015-a3483cff993c"
       }
     ],
-    "used_designators": "U1-4,47K1-3,R1-38,R45-47,L1,D1,#PWR1-44,C1-20,Q1-6,EG1192L1,TH1,10K1",
+    "used_designators": "U1-4,47K1-3,R1-39,R45-47,L1,D1,#PWR1-45,C1-20,Q1-6,EG1192L1,TH1,10K1",
     "variants": []
   },
   "sheets": [

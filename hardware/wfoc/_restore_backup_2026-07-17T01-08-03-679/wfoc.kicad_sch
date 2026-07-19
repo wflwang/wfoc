@@ -5625,6 +5625,12 @@
 		(uuid "94014c21-9d27-4161-9b22-e41b30ffcd99")
 	)
 	(junction
+		(at 40.64 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98de4846-e3f4-4886-a274-30cf9d39ed15")
+	)
+	(junction
 		(at 270.51 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6142,6 +6148,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 97.79) (xy 46.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4488d98a-83d5-43f7-8765-a28e972c1dcd")
+	)
+	(wire
+		(pts
 			(xy 205.74 73.66) (xy 201.93 73.66)
 		)
 		(stroke
@@ -6430,6 +6446,16 @@
 			(type default)
 		)
 		(uuid "763b6032-8f84-4246-8eb6-9cca6244627e")
+	)
+	(wire
+		(pts
+			(xy 46.99 95.25) (xy 40.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e9f661-ca3f-4340-9b5a-4fb9431ef616")
 	)
 	(wire
 		(pts
@@ -7074,6 +7100,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 95.25) (xy 20.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d884ab12-8646-476f-8976-d64ce06ec4de")
+	)
+	(wire
+		(pts
 			(xy 127 53.34) (xy 127 60.96)
 		)
 		(stroke
@@ -7294,6 +7330,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 95.25) (xy 40.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78bbdc4-2d9a-46d8-92af-5bd2c7adf09d")
+	)
+	(wire
+		(pts
+			(xy 26.67 95.25) (xy 30.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e0419c-f626-4a50-bf71-385715bbaebf")
+	)
+	(wire
+		(pts
 			(xy 213.36 68.58) (xy 213.36 45.72)
 		)
 		(stroke
@@ -7432,7 +7488,7 @@
 			)
 		)
 	)
-	(global_label "Vol_V"
+	(global_label "Hall_B"
 		(shape input)
 		(at 30.48 95.25 270)
 		(fields_autoplaced yes)
@@ -7444,7 +7500,7 @@
 		)
 		(uuid "173bab8e-cef4-4de9-9efc-db081d7d58e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.48 103.1942 90)
+			(at 30.48 104.2827 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7456,7 +7512,7 @@
 			)
 		)
 	)
-	(global_label "Vol_W"
+	(global_label "Hall_C"
 		(shape input)
 		(at 40.64 95.25 270)
 		(fields_autoplaced yes)
@@ -7468,7 +7524,7 @@
 		)
 		(uuid "1b5f0ec2-d497-493f-8828-aadf55525192")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 103.557 90)
+			(at 40.64 104.2827 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,6 +7704,30 @@
 			)
 		)
 	)
+	(global_label "MISO"
+		(shape input)
+		(at 46.99 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3efef476-a3aa-4cce-847e-7500b639587b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 112.9914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Vol_U"
 		(shape input)
 		(at 58.42 95.25 180)
@@ -7661,6 +7741,54 @@
 		(uuid "42830345-3335-463e-9871-4783c44ecaa0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.2339 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 26.67 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4317cfcd-7cfa-4b5a-9d36-70f078090a33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 101.8033 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CSN"
+		(shape input)
+		(at 15.24 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49ac95e4-3d15-4d43-ae53-6ce774c96979")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.24 102.0452 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7888,7 +8016,7 @@
 			)
 		)
 	)
-	(global_label "Vol_U"
+	(global_label "Hall_A"
 		(shape input)
 		(at 20.32 95.25 270)
 		(fields_autoplaced yes)
@@ -7900,7 +8028,7 @@
 		)
 		(uuid "68d65a8b-e332-47a3-8a5a-3eeedd6da513")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.32 103.4361 90)
+			(at 20.32 104.1013 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8029,6 +8157,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 36.83 95.25 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8988c7c4-86ca-47ee-9bf6-da8fc2135f51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.83 102.8314 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9579,6 +9731,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 72.39 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11c38d0b-ea27-45b5-bedb-fb62b4349ddf")
+		(property "Reference" "#PWR045"
+			(at 72.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 72.39 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 72.39 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c0f66a4-2eec-4398-a5a6-aa4e3fad9e1c")
+		)
+		(instances
+			(project "wfoc"
+				(path "/6325499e-85bc-45e5-a015-a3483cff993c"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 30.48 91.44 180)
 		(unit 1)
@@ -9611,7 +9841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 32.258 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -11375,6 +11605,87 @@
 			(project "wfoc"
 				(path "/6325499e-85bc-45e5-a015-a3483cff993c"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ec878f4-e0de-4325-a972-7da563507a29")
+		(property "Reference" "R39"
+			(at 44.958 102.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K"
+			(at 50.292 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.768 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa5f55bd-18b6-409a-94ee-af726b8ef85c")
+		)
+		(pin "1"
+			(uuid "633b83b1-5e4e-477d-8f8c-b4e3fa5abc3c")
+		)
+		(instances
+			(project "wfoc"
+				(path "/6325499e-85bc-45e5-a015-a3483cff993c"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -13731,7 +14042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 42.418 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -14532,7 +14843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 22.098 91.44 90)
 			(hide yes)
 			(show_name no)
