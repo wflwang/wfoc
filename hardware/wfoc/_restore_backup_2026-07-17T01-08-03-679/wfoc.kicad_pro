@@ -692,11 +692,7 @@
         "uuid": "6325499e-85bc-45e5-a015-a3483cff993c"
       }
     ],
-<<<<<<< HEAD
-    "used_designators": "U1-4,47K1-3,R1-38,R45,L1,D1,#PWR1-42,C1-20,Q1-6,EG1192L1,TH1,10K1",
-=======
     "used_designators": "U1-4,47K1-3,R1-39,R45-47,L1,D1,#PWR1-45,C1-20,Q1-6,EG1192L1,TH1,10K1",
->>>>>>> v1
     "variants": []
   },
   "sheets": [
