@@ -1,0 +1,26 @@
+# ========== KiCad 工程专用忽略 ==========
+# 视图布局（冲突重灾区）
+*.kicad_prl
+# 缓存数据库
+project.db
+# 自动备份、恢复文件夹
+wfoc-backups/
+_restore_backup_*/
+# 制版输出 嘉立创全套生产文件
+jlcpcb/
+# 图纸PDF、各类导出压缩包
+*.pdf
+*.zip
+# 3D/报告/临时
+*.rpt
+*.log
+*.tmp
+*.wrl
+*.step
+*.3dshapes/
+fp-info-cache
+.cache/
+# 系统/IDE隐藏目录
+.history/
+.DS_Store
+Thumbs.db
